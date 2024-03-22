@@ -50,7 +50,7 @@ function Skills() {
                         <div className={styles.skillElements}>
                             <div className={styles.skillElementImage}>
                                 <div>
-                                    <img src={`../../../public/assestsassests//frontend/${item}.png`} alt="" />
+                                    <img src={`../../../public/assests/frontend/${item}.png`} alt="" />
                                 </div>
                                 
                             </div>

@@ -1,5 +1,5 @@
 .footerContainer{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: rgb(23, 22, 22);
     display: flex;
