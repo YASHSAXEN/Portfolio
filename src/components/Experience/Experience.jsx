@@ -27,7 +27,7 @@ function Experience() {
             <div className={styles.expDetailContainer}>
                 <div className={styles.one}>
                     <div>
-                        <img src="../../../public/assests/images/edunet-foundation.png" alt="" />
+                        <img src={import.meta.env.VITE_PUBLIC_URL + "/public/assests/images/edunet-foundation.png"} alt="" />
                     </div>
                 </div>
                 <div className={styles.two}>
