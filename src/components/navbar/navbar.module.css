@@ -1,0 +1,194 @@
+.navContainer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    
+}
+
+.navLogo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.navLogo h1{
+    font-family: "Kavivanar", cursive;
+}
+
+.navElementsConatiner{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+li{
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Kavivanar", cursive;
+}
+
+.Link{
+    font-family: "Kavivanar", cursive;
+    cursor: pointer;
+}
+
+
+.navContactUs{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.Menu{
+    display: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 300px;
+    background-color: orange;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+    display: none;
+    top:0px
+}
+.navbar li{
+    font-family: "Kavivanar", cursive;
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.color{
+    color: black;
+    font-family: "Kavivanar", cursive;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.close{
+    position: absolute;
+    right: 40px;
+    font-size: 30px;
+}
+
+.active{
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    .navLogo h1{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .navLogo h1{
+        font-size: 27px;
+    }
+
+    li{
+        font-size: 18px;
+    }
+    .navLogo{
+        margin-left: 5px;
+    }
+    .close{
+        right: 30px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .navElementsConatiner{
+        visibility: hidden;
+    }
+    .navElements{
+        display: none;
+    }
+    .Menu{
+        display: block;
+        color: white;
+
+    }
+    .navLogo{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .navLogo{
+       width:25%
+    }
+}
+
+@media screen and (max-width:470px) {
+    .navLogo{
+       width:30%
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navLogo{
+       width:42%
+    }
+    .navContactUs{
+        margin-right: 10px;
+    }
+    .close{
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:240px) {
+    .navLogo{
+       width:52%
+    }
+    .navContactUs{
+        margin-right: 18px;
+        width: 30%;
+    }
+    .navLogo h1{
+        font-size: 20px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+}
+

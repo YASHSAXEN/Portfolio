@@ -1,0 +1,21 @@
+/* the color of the text appear in orange color when we select the text */
+::selection{
+  color: skyblue;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.container{
+  width: 100vw;
+  background-color: black;
+}

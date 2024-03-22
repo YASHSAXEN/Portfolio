@@ -1,0 +1,99 @@
+.contactContainer{
+    margin-top:80px;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMain{
+    width: 45%;
+    height: 90%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+}
+
+.contactHeader{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHeader p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Kavivanar", cursive;
+}
+
+.inputContainer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputContainer input{
+    width: 98%;
+    height: 10%;
+    padding-left: 5px;
+    font-family: "Kavivanar", cursive;
+}
+
+.inputContainer input:focus{
+    margin: 2px;
+
+}
+
+.inputContainer textarea{
+    width: 98%;
+    height: 35%;
+    padding-left: 5px;
+    font-family: "Kavivanar", cursive;
+    resize: none;
+}
+
+.inputContainer textarea:focus{
+    margin: 2px;
+
+}
+
+.inputContainer button{
+    width: 98%;
+    height: 10%;
+    font-family: "Kavivanar", cursive;
+    font-weight: 900;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+
+}
+
+.inputContainer button:hover{
+    background-color: lightgray;
+}
+
+@media screen and (max-width:900px) {
+    .contactMain{
+        width: 60%;
+    }
+}
+@media screen and (max-width:650px) {
+    .contactMain{
+        width: 70%;
+    }
+}
+@media screen and (max-width:450px) {
+    .contactMain{
+        width: 80%;
+    }
+}

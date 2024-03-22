@@ -1,0 +1,330 @@
+.heroContainer{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.leftContainer{
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-left: 65px;
+    margin-top: 5px;
+    color: white;
+}
+
+.one p{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Kavivanar", cursive;
+    color: white;
+}
+
+.two{
+    font-size: 35px;
+    /* letter-spacing: 3px; */
+    word-spacing: 10px;
+}
+
+.two p{
+    font-family: "Kavivanar", cursive;
+}
+
+.three p{
+    font-size: 18px;
+    opacity: 0.8;
+    font-family: "Kavivanar", cursive;
+    text-align: justify;
+}
+
+.four a button{
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    font-family: "Kavivanar", cursive;
+    font-weight: bolder;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background: linear-gradient(to right bottom, #f6900c, #f39422, #f09831, #ec9b3d, #e99f49, #e49e4a, #de9d4b, #d99c4c, #d19643, #c9913a, #c08b31, #b88628);
+}
+
+.four a button:hover{
+    scale: 0.9;
+}
+
+.typeAnimation{
+    font-family: "Kavivanar", cursive;
+    color: orange;
+}
+
+.rightContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    width: 58%;
+    height: 70%;
+    border: none;
+    /* border-radius: 50%; */
+    background-color: white;
+    background-image: url('../../../public/images/Yash1.jpeg');
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .leftContainer{
+        padding-left: 55px;
+    }
+    .one p{
+        font-size: 55px;
+    }
+    .two{
+        font-size: 33px;
+    }
+    .three p{
+        font-size: 17px;
+    }
+    .four a button{
+        width: 110px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .one p{
+        font-size: 50px;
+    }
+    .two{
+        font-size: 31px;
+    }
+    .three p{
+        font-size: 16px;
+    }
+    .four a button{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .leftContainer{
+        padding-left: 45px;
+    }
+    .one p{
+        font-size: 47px;
+    }
+    .two{
+        font-size: 27px;
+    }
+    .four a button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:935px) {
+    .leftContainer{
+        padding-left: 37px;
+    }
+    .one p{
+        font-size: 45px;
+    }
+    .two{
+        font-size: 26px;
+    }
+    .three p{
+        font-size: 15.5px;
+    }
+    .four a button{
+        width: 95px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:885px) {
+    .leftContainer{
+        padding-left: 37px;
+    }
+    .one p{
+        font-size: 43px;
+    }
+    .two{
+        font-size: 25px;
+    }
+    .three p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    
+    .leftContainer{
+        width: 55%;
+        padding-left: 37px;
+    }
+    .rightContainer{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .one p{
+        font-size: 40px;
+    }
+    .three p{
+        font-size: 14.5px;
+    }
+    .four a button{
+        width: 90px;
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width:726px) {
+    .one p{
+        font-size: 37px;
+    }
+    .two{
+        font-size: 24px;
+    }
+    .three p{
+        font-size: 14.5px;
+    }
+}
+
+@media screen and (max-width:685px) {
+    .one p{
+        font-size: 35px;
+    }
+    .two{
+        font-size: 22px;
+    }
+    .three p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:650px) {
+    .one p{
+        font-size: 33px;
+    }
+    .two{
+        font-size: 21px;
+    }
+    .three p{
+        font-size: 13.5px;
+    }
+}
+@media screen and (max-width:620px) {
+    .one p{
+        font-size: 30px;
+    }
+    .two{
+        font-size: 19px;
+    }
+    .imageContainer{
+        width: 65%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .one p{
+        font-size: 28px;
+    }
+    .two{
+        font-size: 18px;
+        word-spacing: 3px;
+    }
+    .three p{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width:540px) {
+    .one p{
+        font-size: 26px;
+    }
+    .two{
+        font-size: 17px;
+    }
+    .four a button{
+        height: 32px;
+        width: 85px;
+    }
+}
+@media screen and (max-width:510px) {
+    .one p{
+        font-size: 25px;
+    }
+    .two{
+        font-size: 16px;
+        word-spacing: 3px;
+    }
+    .three p{
+        font-size: 12px;
+    }
+    .four a button{
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:495px) {
+    .one p{
+        font-size: 23px;
+        word-spacing: 1px;
+    }
+    .two{
+        font-size: 15px;
+    }
+    .three p{
+        font-size: 11.5px;
+    }
+    .imageContainer{
+        width: 70%;
+        height: 70%;
+    }
+    .four a button{
+        width: 70px;
+        font-size: 12.5px;
+        height: 27px;
+    }
+}
+@media screen and (max-width:470px) {
+    .one p{
+        font-size: 28px;
+    }
+    .imageContainer{
+        width: 80%;
+    }
+}
+@media screen and (max-width:370px) {
+    .leftContainer{
+        padding-left: 25px;
+    }
+    .rightContainer{
+        justify-content: flex-start;
+    }
+    .imageContainer{
+        width: 90%;
+    }
+    .one p{
+        font-size: 23px;
+    }
+    .three p{
+        font-size: 10.5px;
+    }
+}

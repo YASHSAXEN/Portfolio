@@ -1,0 +1,181 @@
+.expContainer{
+    width: 100%;
+    height: max-content;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.expHeader{
+    padding-top: 15px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.expHeader p{
+    font-size: 45px;
+    font-family: "Kavivanar", cursive;
+}
+
+.expBox{
+    overflow: hidden;
+    width: 60%;
+    height: max-content;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-shadow: rgba(157, 160, 163, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.expDetailContainer{
+    width: 100%;
+    display: flex;
+    height: max-content;
+    gap: 30px;
+}
+
+.expSummary{
+    width: 100%;
+    height: max-content;
+}
+.expSummary p{
+    width: 88%;
+    font-size: 17px;
+    font-family: "Kavivanar", cursive;
+    text-align: justify;
+}
+
+.one{
+    width: 20%;
+}
+
+.one div{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.one div img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.two p{
+    font-size: 17px;
+    font-family: "Kavivanar", cursive;
+}
+
+.two_one p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1150px) {
+    .expHeader p{
+        font-size: 42px;
+    }
+    .two p{
+        font-size: 16px;
+    }
+    .two_one p{
+        font-size: 19px;
+    }
+    .expSummary p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .expHeader p{
+        font-size: 40px;
+    }
+    .two p{
+        font-size: 15px;
+    }
+    .two_one p{
+        font-size: 18px;
+    }
+    .expSummary p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:850px) {
+    .expHeader p{
+        font-size: 38px;
+    }
+    .two p{
+        font-size: 14px;
+    }
+    .two_one p{
+        font-size: 17px;
+    }
+    .expSummary p{
+        font-size: 14px;
+    }
+    .expBox{
+        width: 65%;
+    }
+}
+@media screen and (max-width:750px) {
+    .expBox{
+        width: 70%;
+        padding: 25px;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .two p{
+        font-size: 12px;
+    }
+    .two_one p{
+        font-size: 15px;
+    }
+    .expSummary p{
+        font-size: 12px;
+    }
+    .expHeader p{
+        font-size: 36px;
+    }
+    .expBox{
+        width: 75%;
+        padding: 20px;
+    }
+    .one{
+        width: 25%;
+    }
+}
+@media screen and (max-width:350px) {
+    .two p{
+        font-size: 11px;
+    }
+    .two_one p{
+        font-size: 14px;
+    }
+    .expSummary p{
+        font-size: 11px;
+    }
+    .expHeader p{
+        font-size: 33px;
+    }
+}
