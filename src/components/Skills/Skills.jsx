@@ -50,7 +50,7 @@ function Skills() {
                         <div className={styles.skillElements}>
                             <div className={styles.skillElementImage}>
                                 <div>
-                                    <img src={`../../../public/assests/frontend/${item}.png`} alt="" />
+                                    <img src={`${import.meta.env.VITE_PUBLIC_URL}assests/frontend/${item}.png`} alt="" />
                                 </div>
                                 
                             </div>
@@ -72,7 +72,7 @@ function Skills() {
                             <div className={styles.skillElements}>
                                 <div className={styles.skillElementImage}>
                                     <div>
-                                        <img src={`../../../public/assests/data analysis/${item}.png`} alt="" />
+                                        <img src={`${import.meta.env.VITE_PUBLIC_URL}assests/data analysis/${item}.png`} alt="" />
                                     </div>
                                     
                                 </div>
@@ -94,7 +94,7 @@ function Skills() {
                             <div className={styles.skillElements}>
                                 <div className={styles.skillElementImage}>
                                     <div>
-                                        <img src={`../../../public/assests/databases/${item}.png`} alt="" />
+                                        <img src={`${import.meta.env.VITE_PUBLIC_URL}assests/databases/${item}.png`} alt="" />
                                     </div>
                                     
                                 </div>
@@ -116,7 +116,7 @@ function Skills() {
                             <div className={styles.skillElements}>
                                 <div className={styles.skillElementImage}>
                                     <div>
-                                        <img src={`../../../public/assests/version control/${item}.png`} alt="" />
+                                        <img src={`${import.meta.env.VITE_PUBLIC_URL}assests/version control/${item}.png`} alt="" />
                                     </div>
                                     
                                 </div>
