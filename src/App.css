@@ -17,5 +17,5 @@ body::-webkit-scrollbar{
 
 .container{
   width: 100vw;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
 }
