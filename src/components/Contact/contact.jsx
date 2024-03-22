@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import.meta.env
 
 function Contact(){
     let form = useRef()
@@ -16,7 +17,7 @@ function Contact(){
 
         e.preventDefault()
 
-        emailjs.sendForm('service_71wwr1o', 'template_i0xq5sh', form.current, {publicKey: 'Z4c8NnWiz5-1oDwbZ'})
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_KEY, import.meta.env.VITE_TEMPLATE_KEY, form.current, {publicKey: import.meta.env.VITE_PUBLIC_KEY})
         .then(
           () => {
             userName.current.value =''
