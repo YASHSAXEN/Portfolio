@@ -127,6 +127,11 @@
     overflow: hidden;
 }
 
+.projectTitle{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
 .projectTitle a{
     text-decoration: none;
 }

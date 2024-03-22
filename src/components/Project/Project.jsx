@@ -1,5 +1,6 @@
 import styles from './Project.module.css'
 import { motion } from 'framer-motion'
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Project({projects,setProject,project}){
 
@@ -59,6 +60,7 @@ function Project({projects,setProject,project}){
                                 </div>
                                 <div className={styles.projectTitle}>
                                     <a href={item["link"]} target='_blank'><p>{item["title"]}</p></a>
+                                    {item["links"] && <a href={item["links"]}><FaExternalLinkAlt/></a>}
                                 </div>
                                 <div className={styles.desc}>
                                     <p>
