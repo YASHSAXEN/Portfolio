@@ -49,7 +49,7 @@ function Project({projects,setProject,project}){
                         return(
                             <motion.div className={styles.project}  variants={childrenVariant}>
                                 <div className={styles.projectImage}>
-                                    <img src={`../../../public/${project}/${item["title"]}.png`} alt="image" />
+                                    <img src={`../../../public/assests/${project}/${item["title"]}.png`} alt="image" />
                                 </div>
                                 <div className={styles.projectSkills}>
                                     {item["skills"].map((skill)=>{
