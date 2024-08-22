@@ -44,7 +44,7 @@ function HeroSection() {
           <p>I am proficient in both data analytics and web development. With expertise in analyzing complex data sets and designing user-centric websites, I am committed to delivering high-quality solutions tailored to project needs. I am eager to explore opportunities for collaboration and discuss how my skills can benefit your endeavors</p>
         </motion.div>
         <motion.div className={styles.four} variants={childrenVariant}>
-          <a href="https://drive.google.com/file/d/1AhRdazNGBi7CYua2QefSrImDO785Ff1t/view?usp=sharing" target='_blank'><button>Resume</button></a>
+          <a href="https://drive.google.com/file/d/1la8_Zpghvc8F1UYxosPGhtI9p60lWxuH/view?usp=sharing" target='_blank'><button>Resume</button></a>
         </motion.div>
       </motion.div>
       <div className={styles.rightContainer}>

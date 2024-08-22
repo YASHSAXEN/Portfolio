@@ -46,6 +46,29 @@ function Experience() {
                 <p>As a Data Analyst Intern at Edunet Foundation, I honed my analytical skills while contributing to the organization`s success. My primary responsibility was to analyze sales data, providing valuable insights that informed strategic decisions. This internship allowed me to apply my knowledge of data analysis tools and techniques, including Python, Excel, and data visualization, to real-world scenarios.</p>
             </div>
         </motion.div>
+        <motion.div className={styles.expBox} variants={parentVariant} initial="initial" whileInView="animate" viewport={{once:true}}>
+            <div className={styles.expDetailContainer}>
+                <div className={styles.one}>
+                    <div>
+                        <img src={import.meta.env.VITE_PUBLIC_URL + "assests/images/ihub-iitmandi.png"} alt="" />
+                    </div>
+                </div>
+                <div className={styles.two}>
+                    <div className={styles.two_one}>
+                        <p>AI/ML Engineer</p>
+                    </div>
+                    <div className={styles.two_two}>
+                        <p>IIT Mandi iHub and HCi Foundation</p>
+                    </div>
+                    <div className={styles.two_three}>
+                        <p>April 2024 - July 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.expSummary}>
+                <p> As an AI/ML Engineer at IIT Mandi iHub and HCI Foundation i gained has on experience in the field of AI and ML. I worked on various project during this internship one of them is AI generated image detection using deep learning.</p>
+            </div>
+        </motion.div>
     </div>
   )
 }

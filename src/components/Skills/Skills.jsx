@@ -27,8 +27,8 @@ function Skills() {
             }
         }
     }
-    let frontendSKills = ["HTML","CSS","Javascript","ReactJS","Redux-Toolkit","Flask","Django","WebScrapping"]
-    let dataAnalysis = ["Python","Numpy","Pandas","Matplotlib","Seaborn","Tableau","Machine Learning"]
+    let frontendSKills = ["HTML","CSS","Javascript","ReactJS","Redux-Toolkit","Flask","Django","WebScrapping","RestAPI","Websocket","Celery"]
+    let dataAnalysis = ["Python","Numpy","Pandas","Matplotlib","Seaborn","Tableau","Machine Learning","Deep Learning"]
     let databases = ["SQL","MongoDB"]
     let versionControl = ["Git","GitHub"]
     
