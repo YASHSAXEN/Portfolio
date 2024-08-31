@@ -29,7 +29,7 @@ function MidSection() {
         "skills":["HTML","CSS","Python","Flask","Machine Learning"],
         "title":"Car Price Prediction System",
         "desc":"The Car Price prediction system using machine learning, Python, and Flask is a web-based application that predicts the selling price of a used car based on several input factors such as the car`s model, year,mileage, fuel type, and transmission type",
-        "links":"http://ec2-3-84-91-97.compute-1.amazonaws.com:8080/"
+        "links":""
         }],
         'FullStack_Developer':[
             {
